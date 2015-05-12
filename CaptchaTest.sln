@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaptchaLibrary", "CaptchaTest\CaptchaLibrary\CaptchaLibrary.csproj", "{57CD1328-191D-4425-8A66-06B1FBB400AF}"
 EndProject
@@ -10,17 +10,34 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{57CD1328-191D-4425-8A66-06B1FBB400AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{57CD1328-191D-4425-8A66-06B1FBB400AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CD1328-191D-4425-8A66-06B1FBB400AF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{57CD1328-191D-4425-8A66-06B1FBB400AF}.Debug|x64.Build.0 = Debug|Any CPU
+		{57CD1328-191D-4425-8A66-06B1FBB400AF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{57CD1328-191D-4425-8A66-06B1FBB400AF}.Debug|x86.Build.0 = Debug|Any CPU
+		{57CD1328-191D-4425-8A66-06B1FBB400AF}.Debug|x86.Deploy.0 = Debug|Any CPU
 		{57CD1328-191D-4425-8A66-06B1FBB400AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57CD1328-191D-4425-8A66-06B1FBB400AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CD1328-191D-4425-8A66-06B1FBB400AF}.Release|x64.ActiveCfg = Release|Any CPU
+		{57CD1328-191D-4425-8A66-06B1FBB400AF}.Release|x86.ActiveCfg = Release|Any CPU
 		{B6ABBFFB-F751-430E-96C4-8B02AC31B93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B6ABBFFB-F751-430E-96C4-8B02AC31B93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6ABBFFB-F751-430E-96C4-8B02AC31B93D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B6ABBFFB-F751-430E-96C4-8B02AC31B93D}.Debug|x64.Build.0 = Debug|Any CPU
+		{B6ABBFFB-F751-430E-96C4-8B02AC31B93D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B6ABBFFB-F751-430E-96C4-8B02AC31B93D}.Debug|x86.Build.0 = Debug|Any CPU
 		{B6ABBFFB-F751-430E-96C4-8B02AC31B93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6ABBFFB-F751-430E-96C4-8B02AC31B93D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6ABBFFB-F751-430E-96C4-8B02AC31B93D}.Release|x64.ActiveCfg = Release|Any CPU
+		{B6ABBFFB-F751-430E-96C4-8B02AC31B93D}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
