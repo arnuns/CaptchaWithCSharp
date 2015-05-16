@@ -5,9 +5,11 @@ namespace CaptchaLibrary
     {
         int GetPattern();
 
-        int GetOperand();
+        int GetRightOperand();
 
         int GetOperator();
+
+        int GetLeftOperand();
     }
 
 }

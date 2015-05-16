@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Captcha.cs" />
+    <Compile Include="CaptchaService.cs" />
     <Compile Include="InvalidFormatOperatorException.cs" />
     <Compile Include="InvalidRangeException.cs" />
     <Compile Include="IRandomNumber.cs" />
